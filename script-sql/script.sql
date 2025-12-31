@@ -25,8 +25,8 @@ foreign key(id_user) references user (id_user),
 foreign key(id_catalog) references catalog (id_catalog)
  );
  
- create table commint (
- ID_commont int auto_increment primary key,
+ create table comment (
+ ID_comment int auto_increment primary key,
  contenu text not null,
  date_publication_commint datetime not null,
  ID_user int,
