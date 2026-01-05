@@ -71,9 +71,9 @@ VALUES
 INSERT INTO comment
 (contenu, date_comment, id_user, id_article)
 VALUES
-('مقال رائع', '2024-03-21 12:00:00', 2, 1),
-('شرح واضح', '2024-03-22 15:30:00', 3, 1),
-('مفيد جدا', '2024-03-23 09:00:00', 1, 2);
+('Great article!', '2024-03-21 12:00:00', 2, 1),
+('Very clear explanation', '2024-03-22 15:30:00', 3, 1),
+('Helpful content', '2024-03-23 09:00:00', 1, 2);
 
 
 
